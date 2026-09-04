@@ -1,0 +1,11 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2023-06-29 10:12:33
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2023-06-29 10:12:33 127.0.0.1 GET / - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/114.0 - 200 0 0 5569
+2023-06-29 10:12:34 127.0.0.1 GET /favicon.ico - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/114.0 http://localhost/ 404 0 2 1250
+2023-06-29 10:13:01 127.0.0.1 GET /api/v1/users id=104 443 admin 192.168.1.45 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36 http://localhost/dashboard 200 0 0 145
+2023-06-29 10:13:15 127.0.0.1 POST /login - 443 - 192.168.1.50 Mozilla/5.0+(Macintosh;+Intel+MacOS+X+10_15_7)+AppleWebKit/537.36 http://localhost/login 401 0 5 890
+2023-06-29 10:14:02 127.0.0.1 POST /login - 443 - 192.168.1.50 Mozilla/5.0+(Macintosh;+Intel+MacOS+X+10_15_7)+AppleWebKit/537.36 http://localhost/login 200 0 0 1200
+2023-06-29 10:15:30 127.0.0.1 GET /images/banner.png - 80 - 192.168.1.50 Mozilla/5.0+(Macintosh;+Intel+MacOS+X+10_15_7)+AppleWebKit/537.36 http://localhost/home 304 0 0 45
+2023-06-29 10:16:11 127.0.0.1 POST /api/v1/upload - 443 admin 192.168.1.45 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36 http://localhost/admin 500 0 0 4520

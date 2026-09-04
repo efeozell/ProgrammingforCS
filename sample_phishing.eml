@@ -1,0 +1,66 @@
+Delivered-To: labuser@letsdefend.io
+Received: by 2002:a05:6602:9999:b0:5f0:dead:beef with SMTP id xyz789;
+        Mon, 31 Aug 2026 03:41:07 -0700 (PDT)
+Return-Path: <security-alert@paypa1-secure-verify.com>
+Received: from unknown (HELO webmail-relay-99.freehost-example.net) (185.220.101.47)
+        by mx.letsdefend.io with SMTP;
+        Mon, 31 Aug 2026 03:41:05 -0700 (PDT)
+Authentication-Results: mx.letsdefend.io;
+       dkim=fail (signature verification failed) header.i=@paypa1-secure-verify.com;
+       spf=fail (mx.letsdefend.io: domain of security-alert@paypa1-secure-verify.com does not designate 185.220.101.47 as permitted sender) smtp.mailfrom=security-alert@paypa1-secure-verify.com;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=paypa1-secure-verify.com
+Message-ID: <a1b2c3d4e5f6@webmail-relay-99.freehost-example.net>
+Date: Mon, 31 Aug 2026 03:41:00 -0700
+From: "PayPal Security Team" <security-alert@paypa1-secure-verify.com>
+Reply-To: support-case-8827@paypa1-secure-verify.com
+To: labuser@letsdefend.io
+Subject: URGENT: Your Account Has Been Limited - Action Required Within 24 Hours
+Content-Type: multipart/alternative; boundary="----=_NextPart_000_0012_01D9F123.ABCD1234"
+MIME-Version: 1.0
+X-Priority: 1
+X-Mailer: PHPMailer 5.2.9
+
+------=_NextPart_000_0012_01D9F123.ABCD1234
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Valued Customer,
+
+We have detected unusual activity on your account. Your account has
+been temporarily limited for your protection.
+
+To restore full access, you must verify your identity immediately by
+clicking the link below:
+
+hxxp://paypa1-secure-verify[.]com/login/verify?session=8827aa22bb
+
+Failure to verify within 24 hours will result in permanent suspension
+of your account.
+
+Thank you for your prompt attention to this matter.
+
+PayPal Security Team
+
+------=_NextPart_000_0012_01D9F123.ABCD1234
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+<body style="font-family:Arial,sans-serif;">
+<p>Dear Valued Customer,</p>
+<p style="color:red;"><strong>We have detected unusual activity on your account.</strong>
+Your account has been temporarily limited for your protection.</p>
+<p>To restore full access, you must verify your identity immediately by
+clicking the button below:</p>
+<p>
+  <a href="hxxp://paypa1-secure-verify[.]com/login/verify?session=8827aa22bb"
+     style="background-color:#0070ba;color:white;padding:10px 20px;text-decoration:none;">
+     Verify My Account
+  </a>
+</p>
+<p>Failure to verify within <strong>24 hours</strong> will result in
+permanent suspension of your account.</p>
+<p>Thank you for your prompt attention to this matter.<br>
+PayPal Security Team</p>
+</body>
+</html>
+
+------=_NextPart_000_0012_01D9F123.ABCD1234--
